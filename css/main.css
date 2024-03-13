@@ -49,6 +49,7 @@ ul {
 .pointer {
   cursor: pointer;
 }
+
 /* Styls Title Section  Page*/
 
 .section-title {
@@ -247,6 +248,63 @@ main .image {
   text-decoration: none;
 }
 
+/* ==================== Behavior  ==================== */
+
+
+
+
+.behavior {
+  padding: 100px 0;
+
+}
+
+.behavior h2::before {
+  left: -15px;
+
+}
+
+.behavior h2::after {
+  left: -15px;
+
+}
+
+.behavior .item p {
+  text-align: start;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.behavior .item {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #00000021;
+  text-align: center;
+}
+
+.behavior .item {
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 0 6px #00000021;
+}
+
+.behavior .item iframe {
+  margin: 10px auto;
+}
+
+.behavior .item:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.35);
+}
+
+.headerheaderbehavior {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url('../image/behavior/header.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
 /* ==================== Foods  ==================== */
 /* style food items */
 .food-header {
@@ -264,13 +322,16 @@ main .image {
   padding: 60px 0;
   text-align: center;
 }
+
 .food-about h2 {
   color: #d04848;
   text-align: start !important;
 }
+
 .food-about p {
   text-align: start !important;
 }
+
 .food-about img {
   width: 300px !important;
 }
@@ -279,6 +340,7 @@ main .image {
 .food {
   padding: 60px 0 100px 0;
 }
+
 .food .item {
   padding: 40px 10px;
   text-align: center;
@@ -286,10 +348,12 @@ main .image {
   transition: all 0.5s ease;
   box-shadow: 0 0 10px #00000021;
 }
+
 .food .item figure {
   margin-bottom: 25px;
   overflow: hidden;
 }
+
 .food .item figure img {
   border-radius: 6px;
   width: 200px !important;
@@ -302,6 +366,7 @@ main .image {
   font-weight: 500;
   color: #d04848;
 }
+
 .food .item .info span {
   color: #777;
 }
@@ -310,6 +375,7 @@ main .image {
   transition: all 0.5s ease;
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.35);
 }
+
 .food .item:hover img {
   transform: scale(1.1);
   transition: all 0.5s ease;
@@ -320,10 +386,12 @@ main .image {
 .food-details {
   padding: 100px 0;
 }
+
 .food-details h3 {
   color: #d04848;
   position: relative;
 }
+
 .food-details p {
   color: #777;
   line-height: 1.6;
@@ -360,6 +428,7 @@ main .image {
   position: relative;
   padding: 120px 0;
 }
+
 .food-header .food-details-title {
   left: 50%;
   top: 50%;
@@ -369,10 +438,12 @@ main .image {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .food-header .food-details-title a {
   color: #fff;
   text-decoration: none;
 }
+
 /* header details food */
 .header .image-header {
   height: 30vh;
@@ -389,6 +460,7 @@ main .image {
   position: absolute;
   background-color: rgba(48, 46, 77, 0.35);
 }
+
 .header .image-header img {
   min-height: 100%;
 }
@@ -400,7 +472,129 @@ main .image {
   left: 50%;
   top: 70%;
   color: #fff;
+
+
+  /* ==================== Food Plan  ==================== */
 }
+
+.food-plan {
+  padding-bottom: 100px;
+
+}
+
+.food-plan h2::before {
+  left: -15px;
+
+}
+
+.food-plan h2::after {
+  left: -15px;
+
+}
+
+.food-plan .item {
+  padding: 40px 10px;
+  text-align: center;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px #00000021;
+}
+
+.food-plan .item figure {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.food-plan .item figure img {
+  border-radius: 6px;
+  width: 200px !important;
+  transition: all 0.5s ease;
+}
+
+.food-plan .item .info h3 {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d04848;
+}
+
+.food-plan .item .info span {
+  color: #777;
+}
+
+.food-plan .item:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.35);
+}
+
+.food-plan .item:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.foodPlanDetails {
+  padding: 100px 0;
+}
+
+.foodPlanDetails {
+  padding: 100px 0;
+}
+
+.foodPlanDetails h2::before {
+  left: -15px;
+
+}
+
+.foodPlanDetails h2::after {
+  left: -15px;
+}
+
+
+.foodPlanDetails .item ul {
+  padding: 0;
+  margin: 30px 0;
+}
+
+.foodPlanDetails .item ul li {
+  margin: 10px;
+}
+
+
+.foodPlanDetails .item ul li p {
+  margin: 0;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.foodPlanDetails .item ul li span {
+  color: #777;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.foodPlanDetails .item figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodPlanDetails .item img {
+  display: block;
+  border-radius: 6px;
+  width: 300px !important;
+
+}
+
+@media (max-width:991px) {
+  .foodPlanDetails .item figure {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+}
+
 /* ==================== Section Hospitals  ==================== */
 
 .doctors-header .doctors-details-title span {
@@ -490,6 +684,7 @@ main .image {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .doctors-header .doctors-details-title a {
   color: #fff;
   text-decoration: none;
@@ -526,6 +721,7 @@ main .image {
   color: #d04848;
   font-weight: bold;
 }
+
 .doctors-section .doctor-item p {
   text-wrap: nowrap;
   font-size: 14px;
@@ -557,6 +753,7 @@ main .image {
 .doctor-details {
   padding: 60px 0 1000px 0;
 }
+
 .doctor-details .doctor-info {
   box-shadow: 0 0 10px #00000021;
   border-radius: 6px;
@@ -565,25 +762,30 @@ main .image {
 .doctor-details .doctor-info figure {
   border-radius: 6px;
 }
+
 .doctor-details .doctor-info figure img {
   border-radius: 6px;
 
   width: 100%;
 }
+
 .doctor-details .doctor-info p {
   font-weight: 400;
   font-size: 15px;
   color: #2c2d3f;
 }
+
 .doctor-details .doctor-info p i {
   color: #d04848;
   margin: 0 5px;
 }
+
 .doctor-details .doctor-info .social-icons {
   padding: 5px;
   display: flex;
   gap: 10px;
 }
+
 .doctor-details .doctor-info .social-icons a {
   padding: 0;
   width: 34px;
@@ -603,6 +805,7 @@ main .image {
   transition: all 0.5s;
   background-color: #d04848;
 }
+
 .doctor-details .doctor-info .social-icons i {
   padding: 10px;
   border-radius: 6px;
@@ -611,13 +814,16 @@ main .image {
 .doctor-information .titel-name p {
   color: #777;
 }
+
 .doctor-information .acv {
   padding: 10px;
   margin-bottom: 10px;
 }
+
 .doctor-information .acv h4 {
   color: #d04848;
 }
+
 .doctor-information .acv span {
   color: #777;
 }
@@ -959,16 +1165,19 @@ footer i {
   flex-direction: column;
   justify-content: center;
 }
+
 .level-start p {
   font-size: 18px;
   font-weight: bold;
 }
+
 .level-start span {
   color: #d04848;
 
   font-size: 18px;
   font-weight: 700;
 }
+
 button {
   margin: 10px 0;
   border: none;
@@ -979,10 +1188,12 @@ button {
   margin-left: auto;
   background-color: #21bdff;
 }
+
 .countdown {
   color: red;
   text-align: center;
 }
+
 .game-train-container {
   padding: 20px 0 60px 0;
 }
@@ -994,12 +1205,14 @@ button {
   font-size: 18px;
   font-weight: bold;
 }
+
 /* Msg Good */
 .goodAnswerMessage {
   font-size: 30px;
   font-weight: bold;
   display: block;
 }
+
 .game-train-container .containerTrain {
   padding: 60px 0 0 0;
   padding: 20px;
@@ -1010,6 +1223,7 @@ button {
   align-items: center;
   border-radius: 6px;
 }
+
 @media (max-width: 767px) {
   .game-train-container .containerTrain {
     width: 100%;
@@ -1031,6 +1245,7 @@ button {
   flex-direction: column-reverse;
   gap: 10px;
 }
+
 .image-game span {
   height: 30px;
   width: 30px;
@@ -1042,12 +1257,14 @@ button {
   border-radius: 50%;
   margin: 20px auto;
 }
+
 .containerTrain .containerGame .image-game img {
   width: 500px;
   border-radius: 10px;
   display: block;
   margin: 20px auto;
 }
+
 /* Conatiner Question */
 .containerTrain .questions .containerGame .question {
   padding: 20px;
@@ -1057,6 +1274,7 @@ button {
   border: 1px solid #ccc;
   /* box-shadow: 0 0 10px #00000021; */
 }
+
 /* Title question */
 .containerTrain .questions .containerGame .question h2 {
   color: var(--text-black-900);
@@ -1070,6 +1288,7 @@ button {
   font-weight: bold;
   text-align: center;
 }
+
 /* Label */
 .containerTrain .questions .containerGame .question .answer-area label {
   color: #777;
@@ -1080,6 +1299,7 @@ button {
   position: relative;
   margin-left: 10px;
 }
+
 /* Error Msg */
 .containerTrain .questions .containerGame .question .answer-area .errorMessage {
   font-size: 18px;
@@ -1098,6 +1318,7 @@ button {
   align-items: center;
   border-radius: 6px;
 }
+
 @media (max-width: 767px) {
   .game-sensory-container .containersensory {
     width: 100%;
@@ -1111,10 +1332,12 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 .containersensory .containerGame .image-game img {
   width: 500px;
   border-radius: 10px;
 }
+
 /* Conatiner Question */
 .containersensory .questions .containerGame .question {
   padding: 20px;
@@ -1123,6 +1346,7 @@ button {
   background-color: #fff;
   border: 1px solid #eee;
 }
+
 /* Title question */
 .containersensory .questions .containerGame .question h2 {
   color: var(--text-black-900);
@@ -1136,6 +1360,7 @@ button {
   font-weight: bold;
   text-align: center;
 }
+
 /* Label */
 .containersensory .questions .containerGame .question .answer-area label {
   color: #777;
@@ -1146,13 +1371,9 @@ button {
   position: relative;
   margin-left: 10px;
 }
+
 /* Error Msg */
-.containersensory
-  .questions
-  .containerGame
-  .question
-  .answer-area
-  .errorMessage {
+.containersensory .questions .containerGame .question .answer-area .errorMessage {
   font-size: 18px;
   font-weight: bold;
 }
@@ -1163,6 +1384,7 @@ button {
   display: block;
   font-size: 30px;
 }
+
 /* correct answer  */
 .correct-answer {
   color: #199054;
@@ -1172,6 +1394,7 @@ button {
 .incorrect-answer {
   color: red;
 }
+
 /* end Msg */
 .endquestion {
   font-weight: bold;
@@ -1182,6 +1405,7 @@ button {
   margin: 40px auto;
   padding: 30px;
 }
+
 @media (max-width: 767px) {
   .containersensory .questions .containerGame {
     width: 100%;
@@ -1199,35 +1423,123 @@ button {
   max-width: 400px;
 }
 
+
+
+/* ============================= Sound Game ================================*/
+
+
+.sound-game .question {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.sound-game {
+  padding: 100px 0;
+}
+
+.sound-game .containerQuestions {
+
+  padding: 60px 0 0 0;
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+
+}
+
+@media (max-width: 99px) {
+  .sound-game .containerGame {
+    width: 100%;
+
+  }
+
+}
+
+.sound-game .specials {
+  background-color: #d04848;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  margin: 10px auto;
+  display: block;
+  width: 100px;
+  text-align: center;
+
+
+}
+
+.sound-game .audio-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 6px #00000021;
+
+}
+
+.sound-game .audio-container p {
+  color: #777;
+  text-align: center;
+}
+
+.sound-game .containerGame h2 {
+  margin: 30px 0;
+
+}
+
+.sound-game .containerGame .answer label {
+  margin: 0 10px;
+}
+
+
+
 /* Thae  End Message  */
 
 .conf0 {
   fill: #fc6394;
 }
+
 .conf1 {
   fill: #ef3c8a;
 }
+
 .conf2 {
   fill: #5adaea;
 }
+
 .conf3 {
   fill: #974cbe;
 }
+
 .conf4 {
   fill: #3cbecd;
 }
+
 .conf5 {
   fill: #813bbe;
 }
+
 .conf6 {
   fill: #f9b732;
 }
+
 .conf7 {
   display: none;
   fill: none;
   stroke: #000000;
   stroke-miterlimit: 10;
 }
+
 .conf8 {
   fill: none;
   stroke: #f9b732;
@@ -1240,13 +1552,16 @@ button {
   transform-origin: 200px 50px;
   animation: confetti-cone1 1.2s ease infinite;
 }
+
 @keyframes confetti-cone1 {
   0% {
     transform: translate(40px, 95px) rotate(45deg) scale(1, 1);
   }
+
   15% {
     transform: translate(10px, 145px) rotate(45deg) scale(1.1, 0.85);
   }
+
   100% {
     transform: translate(40px, 105px) rotate(45deg) scale(1, 1);
   }
@@ -1268,12 +1583,14 @@ button {
     transform: translate(-30px, 30px);
     opacity: 0;
   }
+
   2% {
     stroke-dasharray: 1000;
     stroke-dashoffset: 500;
     transform: translate(-30px, 30px);
     opacity: 0;
   }
+
   35% {
     stroke-dasharray: 1000;
     stroke-dashoffset: 900;
@@ -1287,12 +1604,14 @@ button {
     transform: translate(1px, -5px);
     opacity: 1;
   }
+
   90% {
     stroke-dashoffset: 1000;
     stroke-dashoffset: 1000;
     transform: translate(2px, -8px);
     opacity: 0;
   }
+
   100% {
     stroke-dashoffset: 1000;
     stroke-dashoffset: 500;
@@ -1316,14 +1635,17 @@ button {
     opacity: 0;
     transform: translate(-30px, 20px) rotate(0);
   }
+
   15% {
     opacity: 1;
     transform: translate(25px, -10px) rotate(60deg);
   }
+
   80% {
     opacity: 1;
     transform: translate(33px, -18px) rotate(180deg);
   }
+
   100% {
     opacity: 0;
     transform: translate(37px, -23px) scale(0.5) rotate(230deg);
@@ -1339,6 +1661,7 @@ button {
   transform-origin: 230.8px 219.8px;
   animation: confb 1.2s ease-out infinite;
 }
+
 #b3 {
   transform-origin: 222.8px 190.6px;
   animation: confb 1.2s ease-out infinite;
@@ -1359,14 +1682,17 @@ button {
     opacity: 0;
     transform: translate(-30px, 20px) rotate(0);
   }
+
   12% {
     opacity: 1;
     transform: translate(25px, -10px) rotate(60deg);
   }
+
   76% {
     opacity: 1;
     transform: translate(33px, -18px) rotate(180deg);
   }
+
   100% {
     opacity: 0;
     transform: translate(37px, -23px) scale(0.5) rotate(240deg);
@@ -1377,6 +1703,7 @@ button {
   transform-origin: 174.8px 183.4px;
   animation: confc 1.2s ease-out infinite;
 }
+
 #c2 {
   transform-origin: 178.9px 156.2px;
   animation: confc 1.2s ease-out infinite;
@@ -1397,14 +1724,17 @@ button {
     opacity: 0.7;
     transform: translate(-30px, 20px) rotate(0);
   }
+
   18% {
     opacity: 1;
     transform: translate(5px, -10px) rotate(60deg);
   }
+
   76% {
     opacity: 1;
     transform: translate(13px, -18px) rotate(180deg);
   }
+
   100% {
     opacity: 0;
     transform: translate(17px, -23px) scale(0.5) rotate(230deg);
@@ -1415,10 +1745,12 @@ button {
   transform-origin: 127px 176px;
   animation: confd 1.2s ease-out infinite;
 }
+
 #d2 {
   transform-origin: 133px 118px;
   animation: confd 1.2s ease-out infinite;
 }
+
 #d3 {
   transform-origin: 152px 100px;
   animation: confd 1.2s ease-out infinite;
@@ -1429,14 +1761,17 @@ button {
     opacity: 0.7;
     transform: translate(-20px, 20px) rotate(0);
   }
+
   18% {
     opacity: 1;
     transform: translate(-5px, -10px) rotate(60deg);
   }
+
   76% {
     opacity: 1;
     transform: translate(-8px, -18px) rotate(180deg);
   }
+
   100% {
     opacity: 0;
     transform: translate(-10px, -23px) scale(0.5) rotate(230deg);
