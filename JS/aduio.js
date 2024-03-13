@@ -161,7 +161,7 @@ function createQuestionContainer(level, levelIndex) {
             }
         };
 
-        countDownImages(3)
+        countDownImages(71)
 
 
 
